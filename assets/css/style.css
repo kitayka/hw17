@@ -137,6 +137,8 @@
 	margin-right: 0;
 }
 .description_title {
+	display: inline-flex;
+	align-items: center;
 	font-family: "Arial - Bold MT";
 	font-size: 14px;
 	font-weight: bold;
@@ -220,6 +222,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	transform: rotate(180deg);
+	margin-left: 0;
 }
 .work_btn {
 	border: none;
@@ -350,7 +353,6 @@
 	background-color: #e8fcfe;
 	border: 1px solid #81e4ed;
 	margin-top: 40px;
-	margin-bottom: 40px;
 }
 .upload_inform {
 	width: 570px;
@@ -376,6 +378,8 @@
     background-image: linear-gradient(to top, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
 }
 .btn_title {
+	display: inline-flex;
+	align-items: center;
 	font-family: "Arial - Bold MT";
 	font-size: 18px;
 	font-weight: bold;
@@ -392,7 +396,6 @@
 	background-image: url(../images/download.svg);
 	margin-right: 25px;
 	margin-left: 20px;
-	align-content: center;
 }
 .footer_content {
 	margin-top: 40px;
